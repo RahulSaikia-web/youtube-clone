@@ -1,0 +1,55 @@
+.sidebar{
+    background: #fff;
+    width: 18%;
+    border-right: 1px solid rgba(0, 0, 0, 0.219);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+    overflow-x: auto;   
+}
+.sortcut-links img{
+    width: 20px;
+    margin-right: 20px;
+}
+.side-links:hover{
+    background-color: #0c0c0c17;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+.side-links{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-right: 10px;
+    border-radius: 15px;
+
+    
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.subscribe-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subscribe-list img{
+    width: 25px;
+    border-radius: 50%;
+}
+.subscribe-list p{
+    margin-left: 15px;
+}
