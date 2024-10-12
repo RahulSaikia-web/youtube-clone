@@ -1,15 +1,14 @@
 import React from 'react'
 import '../CSS/Sidebar.css';
 import home from '../img/home.png';
-import game from '../img/game_icon.png';
-import automobile from '../img/automobiles.png';
-import sports from '../img/sports.png';
-import entertaintment from '../img/entertainment.png';
-import tech from '../img/tech.png';
-import music from '../img/music.png';
-import news from '../img/news.png';
+import shorts from '../img/shorts.png'
 import user from '../img/user_profile.jpg';
-
+import history from '../img/history.png'
+import subscription from '../img//subscriprion.png'
+import playlist from '../img/library.png'
+import yourvideo from '../img/yourvidos.png'
+import watchlater from '../img/watch-later.png'
+import like from '../img/like.png'
 
 function Sidebar() {
   return (
@@ -19,21 +18,31 @@ function Sidebar() {
                 <img src={home} alt="" /><p>Home</p>
             </div>
             <div className="side-links">
-                <img src={game} alt="" /><p>Games</p>
-            </div> <div className="side-links">
-                <img src={automobile} alt="" /><p>Automobile</p>
-            </div> <div className="side-links">
-                <img src={sports} alt="" /><p>Sports</p>
-            </div> <div className="side-links">
-                <img src={entertaintment} alt="" /><p>Entertainment</p>
-            </div> <div className="side-links">
-                <img src={news} alt="" /><p>News</p>
-            </div> <div className="side-links">
-                <img src={tech} alt="" /><p>Technology</p>
-            </div> <div className="side-links">
-                <img src={music} alt="" /><p>Music</p>
+                <img src={shorts} alt="" /><p>Shorts</p>
+            </div>
+            <div className="side-links">
+                <img src={subscription} alt="" /><p>Subscription</p>
             </div>
             <hr />
+            <h3>You </h3>
+            <div className="side-links">
+                <img src={user} alt="" /><p>Your Channel</p>
+            </div>
+            <div className="side-links">
+                <img src={history} alt="" /><p>History</p>
+            </div>
+            <div className="side-links">
+                <img src={playlist} alt="" /><p>Playlist</p>
+            </div>
+            <div className="side-links">
+                <img src={yourvideo} alt="" /><p>Your Videos</p>
+            </div>
+            <div className="side-links">
+                <img src={watchlater} alt="" /><p>Watch Later</p>
+            </div>
+            <div className="side-links">
+                <img src={like} alt="" /><p>Like Videos</p>
+            </div>
         </div>
         <div className="subscribe-list">
             <h3>Subscribed</h3>
