@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="flex-div">
       <div className="nav-left flex-div">
         {/* <img className="menu-icon" src={menu_icon} alt="" /> */}
-        <img className="logo" src={logo} alt="" />
+        <a href="/"><img className="logo" src={logo} alt="" /></a>
       </div>
 
       <div className="nav-middle flex-div">
